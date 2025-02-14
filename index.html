@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Pentru tine 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="particles-js"></div>
+
+<div class="container">
+  <div class="heart-decoration">❤️</div>
+  <h1 class="glowing-text">Happy Valentine's Day! 💝</h1>
+  <div class="message typing-text">Iluuu!</div>
+  <div class="buttons">
+    <button class="heart-button pulse"
+            onclick="showMore()"
+            aria-label="Deschide mesaj special">Click aici 💖</button>
+    <button class="heart-button pulse"
+            onclick="startMusic()"
+            aria-label="Pornește muzica">Play Music 🎵</button>
+  </div>
+</div>
+
+<div id="special-message" class="special-message">
+  <div class="message-content">
+    <div class="heart-animation"></div>
+    <p class="fade-in">Esti Superba si foarte desteapta  !!! 💖</p>
+    <p class="fade-in delay-1">Iti multumesc pentru tott!🌹</p>
+    <p class="fade-in delay-2">🫀🫀🫀🫀</p>
+
+  </div>
+  <button class="close-button" onclick="hideMessage()">×</button>
+</div>
+
+<audio id="bgMusic" loop preload="auto">
+  <source src="Mac%20Miller%20-%20Congratulations%20(feat.%20Bilal)%20%5BJoFkQ7iAQcw%5D.mp3" type="audio/mp3">
+  <p>Browser-ul dumneavoastră nu suportă elementul audio.</p>
+</audio>
+
+<script src=""></script>
+<script src="script.js"></script>
+</body>
+</html>
